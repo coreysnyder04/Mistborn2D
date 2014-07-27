@@ -46,10 +46,53 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Bomb.cs" />
-     <Compile Include="Assets\Scripts\FollowPlayer.cs" />
+     <Compile Include="Assets\Scripts\Bomb.cs" />
+     <Compile Include="Assets\Scripts\BoxGizmos.cs" />
+     <Compile Include="Assets\Scripts\Entity.cs" />
+     <Compile Include="Assets\Scripts\GameCamera.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\MetalController.cs" />
+     <Compile Include="Assets\Scripts\MouseController.cs" />
+     <Compile Include="Assets\Scripts\ParticleSortLayerScript.cs" />
      <Compile Include="Assets\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\Scripts\Sawblade.cs" />
+     <Compile Include="Assets\Scripts\SortingLayer.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Animation.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\AnimationState.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\AnimationStateData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Atlas.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\AtlasAttachmentLoader.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\Attachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\AttachmentLoader.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\AttachmentType.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\BoundingBoxAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\MeshAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\RegionAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Attachments\SkinnedMeshAttachment.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Bone.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\BoneData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Event.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\EventData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Json.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Skeleton.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\SkeletonBounds.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\SkeletonData.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\SkeletonJson.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Skin.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\Slot.cs" />
+     <Compile Include="Assets\Spine\spine-csharp\SlotData.cs" />
+     <Compile Include="Assets\Spine\spine-unity\AtlasAsset.cs" />
+     <Compile Include="Assets\Spine\spine-unity\BoneComponent.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonAnimation.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonDataAsset.cs" />
+     <Compile Include="Assets\Spine\spine-unity\SkeletonRenderer.cs" />
+     <Compile Include="Assets\zFrom2D\Scripts\BackgroundParallax.cs" />
+     <Compile Include="Assets\zFrom2D\Scripts\Enemy.cs" />
+     <Compile Include="Assets\zFrom2D\Scripts\Spawner.cs" />
+     <None Include="Assets\Spine\Goblin\goblins.atlas.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Spine\spine-unity\Shaders\Skeleton.shader" />
+     <None Include="Assets\Spine\spine-unity\Shaders\SkeletonLit.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

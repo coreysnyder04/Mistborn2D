@@ -1,0 +1,68 @@
+
+die.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+die0
+  rotate: false
+  xy: 0, 108
+  size: 148, 279
+  orig: 346, 320
+  offset: 86, 23
+  index: -1
+die1
+  rotate: false
+  xy: 148, 113
+  size: 153, 274
+  orig: 346, 320
+  offset: 88, 22
+  index: -1
+die2
+  rotate: false
+  xy: 301, 115
+  size: 191, 272
+  orig: 346, 320
+  offset: 71, 7
+  index: -1
+die3
+  rotate: false
+  xy: 492, 145
+  size: 188, 242
+  orig: 346, 320
+  offset: 95, 2
+  index: -1
+die4
+  rotate: false
+  xy: 680, 7
+  size: 251, 169
+  orig: 346, 320
+  offset: 70, 13
+  index: -1
+die5
+  rotate: false
+  xy: 299, 0
+  size: 272, 113
+  orig: 346, 320
+  offset: 40, 16
+  index: -1
+die6
+  rotate: false
+  xy: 680, 176
+  size: 296, 107
+  orig: 346, 320
+  offset: 17, 12
+  index: -1
+die7
+  rotate: false
+  xy: 0, 1
+  size: 299, 107
+  orig: 346, 320
+  offset: 16, 18
+  index: -1
+die8
+  rotate: false
+  xy: 680, 283
+  size: 311, 104
+  orig: 346, 320
+  offset: 4, 9
+  index: -1
