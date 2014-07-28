@@ -1,0 +1,12 @@
+
+wallslide.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+wallslide0
+  rotate: false
+  xy: 0, 0
+  size: 147, 223
+  orig: 159, 228
+  offset: 9, 2
+  index: -1
