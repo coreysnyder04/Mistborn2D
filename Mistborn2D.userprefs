@@ -1,15 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameCamera.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\MouseController.cs">
     <Files>
-      <File FileName="Assets\Scripts\GameManager.cs" Line="50" Column="4" />
-      <File FileName="Assets\Scripts\Entity.cs" Line="28" Column="24" />
-      <File FileName="..\Mistborn\Assets\Scripts\GameManager.cs" Line="22" Column="14" />
-      <File FileName="Assets\Scripts\MetalController.cs" Line="15" Column="1" />
-      <File FileName="Assets\Scripts\GameCamera.cs" Line="15" Column="5" />
-      <File FileName="Assets\Scripts\MouseController.cs" Line="89" Column="11" />
-      <File FileName="Assets\Scripts\PlayerController.cs" Line="129" Column="16" />
-      <File FileName="Assets\Scripts\Sawblade.cs" Line="25" Column="40" />
+      <File FileName="Assets\Scripts\Weapon.cs" Line="43" Column="1" />
+      <File FileName="Assets\Scripts\MouseController.cs" Line="100" Column="1" />
+      <File FileName="Assets\Scripts\Tiling.cs" Line="28" Column="48" />
+      <File FileName="Assets\Scripts\PlayerController.cs" Line="41" Column="1" />
+      <File FileName="Assets\Scripts\GameManager.cs" Line="31" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

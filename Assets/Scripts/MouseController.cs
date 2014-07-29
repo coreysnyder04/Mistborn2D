@@ -105,6 +105,7 @@ public class MouseController : MonoBehaviour {
 	}
 
 	void setupLineRenderer(){
+
 		lineRenderer = playerGO.AddComponent("LineRenderer") as LineRenderer;
 		Debug.Log(lineRenderer.renderer.sortingLayerName);
 		lineRenderer.renderer.sortingLayerName = "Foreground";
@@ -115,5 +116,6 @@ public class MouseController : MonoBehaviour {
 		lineRenderer.SetColors(c1, c2);
 		lineRenderer.SetWidth(0.05f, 0.05f);
 		lineRenderer.SetVertexCount(2);
+		Debug.Log ("SETUP LINE RENDERER");
 	}
 }
