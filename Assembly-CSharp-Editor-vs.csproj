@@ -59,6 +59,12 @@
  <Reference Include="UnityEditor.Graphs">
  <HintPath>E:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
+ <Reference Include="TouchScript">
+ <HintPath>C:/Users/Corey/Documents/Mistborn2D/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
+ </Reference>
+ <Reference Include="TouchScript.Editor">
+ <HintPath>C:/Users/Corey/Documents/Mistborn2D/Assets/TouchScript/Editor/TouchScript.Editor.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-vs.csproj">

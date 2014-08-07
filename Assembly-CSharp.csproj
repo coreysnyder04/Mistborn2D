@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\Sawblade.cs" />
      <Compile Include="Assets\Scripts\SortingLayer.cs" />
      <Compile Include="Assets\Scripts\Tiling.cs" />
+     <Compile Include="Assets\Scripts\TouchInterface.cs" />
      <Compile Include="Assets\Scripts\Weapon.cs" />
      <Compile Include="Assets\Spine\spine-csharp\Animation.cs" />
      <Compile Include="Assets\Spine\spine-csharp\AnimationState.cs" />
@@ -96,6 +97,9 @@
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Spine\spine-unity\Shaders\Skeleton.shader" />
      <None Include="Assets\Spine\spine-unity\Shaders\SkeletonLit.shader" />
+ <Reference Include="TouchScript">
+ <HintPath>C:/Users/Corey/Documents/Mistborn2D/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
+ </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
