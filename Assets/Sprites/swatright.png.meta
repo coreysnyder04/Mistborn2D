@@ -1,6 +1,11 @@
 fileFormatVersion: 2
 guid: 23af594319ad65c43ba2e60544f3b12c
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: swatright_0
+    21300002: swatright_1
+    21300004: swatright_2
+    21300006: swatright_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

@@ -1,6 +1,11 @@
 fileFormatVersion: 2
 guid: d4e06f3771c90594ba41bb4672ef31c8
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: swatleftdown_0
+    21300002: swatleftdown_1
+    21300004: swatleftdown_2
+    21300006: swatleftdown_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
