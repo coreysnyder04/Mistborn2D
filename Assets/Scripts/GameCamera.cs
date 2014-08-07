@@ -31,10 +31,6 @@ public class GameCamera : MonoBehaviour
 		
 	}
 
-	void OnGUI()
-	{
-		GUI.Box (new Rect (5,5,500,30), "My Var Is: Corey");
-	}
 
 	
 	// Increase n towards target by space

@@ -22,12 +22,22 @@ public class PlayerController : MonoBehaviour {
 
 	bool doubleJump = false;
 
+	//Components
 	Animator anim;
+	private GameManager manager;
+
+
 	// Use this for initialization
 	void Start () {
+		// Setup References
+		manager = Camera.main.GetComponent<GameManager>();
 		anim = GetComponent<Animator>();
+
+		// Init Vars
 		anim.SetBool("Dead", false);
 		dead = false;
+
+
 
 	}
 
@@ -137,5 +147,16 @@ public class PlayerController : MonoBehaviour {
 	public void Revive(){
 		anim.SetBool("Dead", false);
 		dead = false;
+	}
+
+	void OnTriggerEnter2D(Collider2D c){
+		Debug.Log ("IN TRIGGER");
+		if(c.tag == "Checkpoint"){
+			manager.SetCheckpoint(c.transform.position);
+		}
+		
+		if(c.tag == "Finish"){
+			manager.EndLevel();
+		}
 	}
 }
