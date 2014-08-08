@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 4fa51ec8ac209c04a9359c21651821b1
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: DarkGrey_TrimmedBox128x128
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

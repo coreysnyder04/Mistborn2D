@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: e6a6869576f6d374e8bafc0cb89b7bfb
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Orange__Combined
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

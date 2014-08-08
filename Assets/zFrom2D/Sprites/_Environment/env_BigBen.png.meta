@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 9813abdadeb6e4dd9a12140dadc778f1
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: env_BigBen
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

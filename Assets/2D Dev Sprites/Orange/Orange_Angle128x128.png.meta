@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 810ab46b24fef2b498de92308747dd13
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Orange_Angle128x128
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: b126006da8178403dad4a53e28cb67f1
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: prop_crate_health
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

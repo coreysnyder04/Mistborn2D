@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: f28cca3aa9289483b8160967b37ef4c5
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: prop_crate_ammo
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

@@ -1,6 +1,20 @@
 fileFormatVersion: 2
 guid: cea9f8073e2adcd428e42fe0205a9d3c
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: DarkGrey__Combined_0
+    21300002: DarkGrey__Combined_1
+    21300004: DarkGrey__Combined_2
+    21300006: DarkGrey__Combined_3
+    21300008: DarkGrey__Combined_4
+    21300010: DarkGrey__Combined_5
+    21300012: DarkGrey__Combined_6
+    21300014: DarkGrey__Combined_7
+    21300016: DarkGrey__Combined_8
+    21300018: DarkGrey__Combined_9
+    21300020: DarkGrey__Combined_10
+    21300022: DarkGrey__Combined_11
+    21300024: DarkGrey__Combined_12
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

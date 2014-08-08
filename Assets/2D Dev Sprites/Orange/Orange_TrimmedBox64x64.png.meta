@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: bad9ff0635f456544bf9db28acf21b4c
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Orange_TrimmedBox64x64
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

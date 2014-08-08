@@ -19,6 +19,7 @@ public class PlayerController : MonoBehaviour {
 	public Transform groundCheck;
 	public float groundRadius = 0.2f;
 	public LayerMask whatIsGround;
+	public bool shouldJump = false; // Used to trigger a jump
 
 	bool doubleJump = false;
 
@@ -50,12 +51,17 @@ public class PlayerController : MonoBehaviour {
 		grounded = Physics2D.OverlapCircle(groundCheck.position, groundRadius, whatIsGround); // Returns true if we hit a collider
 		anim.SetBool("Grounded", grounded);
 		anim.SetFloat("vSpeed", rigidbody2D.velocity.y);
-
 		if(grounded){
 			doubleJump = false;
 		}
 
+
 		float move = Input.GetAxis("Horizontal");
+
+		// iOS Logic ot make user run forward
+		move = 2.0f;
+
+
 		float moveTotal = move * currSpeed;
 		anim.SetFloat("Speed", Mathf.Abs(moveTotal)); // move of 10 or -10 is passed as 10.
 		rigidbody2D.velocity = new Vector2(moveTotal, rigidbody2D.velocity.y);
@@ -65,7 +71,16 @@ public class PlayerController : MonoBehaviour {
 
 	}
 
-
+	public void Jump(){
+		if( (grounded || !doubleJump)){
+			anim.SetBool("Grounded", false);
+			rigidbody2D.AddForce(new Vector2(0, jumpForce));
+			
+			if(!doubleJump && !grounded){
+				doubleJump = true;
+			}
+		}
+	}
 
 	void Update (){
 		if(dead){
@@ -75,14 +90,10 @@ public class PlayerController : MonoBehaviour {
 		currSpeed = (Input.GetButton("Run"))?runSpeed:walkSpeed;
 
 		//******** JUMPING ***********/
-		if( (grounded || !doubleJump)&& Input.GetButtonDown("Jump")){
-			anim.SetBool("Grounded", false);
-			rigidbody2D.AddForce(new Vector2(0, jumpForce));
-
-			if(!doubleJump && !grounded){
-				doubleJump = true;
-			}
+		if(Input.GetButtonDown("Jump")){
+			Jump();
 		}
+
 		/*
 		//########## METAL PUSHING ############/
 		// Find all the colliders on the Metals layer within the bombRadius.
@@ -157,6 +168,10 @@ public class PlayerController : MonoBehaviour {
 		
 		if(c.tag == "Finish"){
 			manager.EndLevel();
+		}
+
+		if(c.tag == "KillBox"){
+			manager.RespawnPlayer();
 		}
 	}
 }

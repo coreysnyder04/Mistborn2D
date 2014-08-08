@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: c0d7bb19e6d7b400483d85741b495289
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: Circle
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

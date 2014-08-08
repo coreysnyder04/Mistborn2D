@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 475c8c14bafa841fbaa49bf42afb311e
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: env_Gherkin
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0

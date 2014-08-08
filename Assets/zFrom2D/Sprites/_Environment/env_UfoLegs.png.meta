@@ -1,6 +1,8 @@
 fileFormatVersion: 2
 guid: 836f6b8ffa7ae498eb9d6bac993daeb1
 TextureImporter:
+  fileIDToRecycleName:
+    21300000: env_UfoLegs
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
