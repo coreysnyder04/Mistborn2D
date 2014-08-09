@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ScreenStream.cs" />
      <Compile Include="Assets\Scripts\Bomb.cs" />
      <Compile Include="Assets\Scripts\Entity.cs" />
      <Compile Include="Assets\Scripts\GameCamera.cs" />
@@ -88,18 +87,9 @@
      <Compile Include="Assets\Spine\spine-unity\SkeletonAnimation.cs" />
      <Compile Include="Assets\Spine\spine-unity\SkeletonDataAsset.cs" />
      <Compile Include="Assets\Spine\spine-unity\SkeletonRenderer.cs" />
-     <Compile Include="Assets\Utils.cs" />
-     <Compile Include="Assets\WebCamStreamer.cs" />
-     <Compile Include="Assets\zFrom2D\Scripts\BackgroundParallax.cs" />
-     <Compile Include="Assets\zFrom2D\Scripts\Enemy.cs" />
-     <Compile Include="Assets\zFrom2D\Scripts\Spawner.cs" />
      <None Include="Assets\Spine\Goblin\goblins.atlas.txt" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Spine\spine-unity\Shaders\Skeleton.shader" />
      <None Include="Assets\Spine\spine-unity\Shaders\SkeletonLit.shader" />
- <Reference Include="TouchScript">
- <HintPath>/Users/coreysnyder/Development/GameDev/Mistborn2D/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
- </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

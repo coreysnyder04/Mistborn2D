@@ -59,7 +59,7 @@ public class PlayerController : MonoBehaviour {
 		float move = Input.GetAxis("Horizontal");
 
 		// iOS Logic ot make user run forward
-		move = 2.0f;
+		//move = 2.0f;
 
 
 		float moveTotal = move * currSpeed;

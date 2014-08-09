@@ -54,15 +54,8 @@
      <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonDataAssetInspector.cs" />
      <Compile Include="Assets\Spine\spine-unity\Editor\SkeletonRendererInspector.cs" />
      <None Include="Assets\Spine\Goblin\goblins.atlas.txt" />
-     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
      <None Include="Assets\Spine\spine-unity\Shaders\Skeleton.shader" />
      <None Include="Assets\Spine\spine-unity\Shaders\SkeletonLit.shader" />
- <Reference Include="TouchScript.Editor">
- <HintPath>/Users/coreysnyder/Development/GameDev/Mistborn2D/Assets/TouchScript/Editor/TouchScript.Editor.dll</HintPath>
- </Reference>
- <Reference Include="TouchScript">
- <HintPath>/Users/coreysnyder/Development/GameDev/Mistborn2D/Assets/TouchScript/Plugins/TouchScript.dll</HintPath>
- </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.Graphs.dll</HintPath>
  </Reference>
